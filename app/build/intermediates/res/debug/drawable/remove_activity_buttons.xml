@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+
+        android:startColor="#196716"
+
+        android:endColor="#2f762d"
+
+        android:angle="90"
+
+        />
+
+    />
+</shape><!-- From: file:/C:/Users/GAURAV/AndroidStudioProjects/Rplace/app/src/main/res/drawable/remove_activity_buttons.xml -->
