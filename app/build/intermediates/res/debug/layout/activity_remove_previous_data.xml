@@ -40,4 +40,4 @@
         android:layout_alignStart="@+id/YearEditText" />
 
 </RelativeLayout>
-<!-- From: file:/C:/Users/GAURAV/AndroidStudioProjects/Rplace/app/src/main/res/layout/activity_remove_previous_data.xml -->
+<!-- From: file:/C:/AndroidStudioProjects/Rplace/app/src/main/res/layout/activity_remove_previous_data.xml -->

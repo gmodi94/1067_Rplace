@@ -1369,6 +1369,7 @@ containing a value of this type.
     }
     public static final class id {
         public static final int AboutAppRelativeLayout=0x7f0a003f;
+        public static final int AboutAppTextView=0x7f0a0042;
         public static final int AboutContentsRelativeLayout=0x7f0a0041;
         public static final int AddButtonID=0x7f0a007e;
         public static final int AddCompanyButton=0x7f0a0065;
@@ -1394,6 +1395,7 @@ containing a value of this type.
         public static final int ET_pid=0x7f0a0053;
         public static final int EXTCButton=0x7f0a006a;
         public static final int FetchDetailsET=0x7f0a007c;
+        public static final int FirstLineTextView3=0x7f0a0043;
         public static final int FrameFullScreenId=0x7f0a006d;
         public static final int GetInfoButton=0x7f0a0079;
         public static final int GetStudentInfoButtonID=0x7f0a0089;
@@ -1500,8 +1502,6 @@ containing a value of this type.
         public static final int submit_area=0x7f0a003c;
         public static final int tabMode=0x7f0a000b;
         public static final int textView=0x7f0a0083;
-        public static final int textView2=0x7f0a0042;
-        public static final int textView3=0x7f0a0043;
         public static final int textView4=0x7f0a0044;
         public static final int textView5=0x7f0a0045;
         public static final int textView6=0x7f0a0084;

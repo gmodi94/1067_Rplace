@@ -67,4 +67,4 @@
         android:layout_alignStart="@+id/OverallButton"
         android:textSize="25sp" />
 </RelativeLayout>
-<!-- From: file:/C:/Users/GAURAV/AndroidStudioProjects/Rplace/app/src/main/res/layout/activity_guiview.xml -->
+<!-- From: file:/C:/AndroidStudioProjects/Rplace/app/src/main/res/layout/activity_guiview.xml -->

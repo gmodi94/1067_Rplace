@@ -364,6 +364,7 @@ int drawable view_background 0x7f02003f
 int drawable view_buttons_background 0x7f020040
 int drawable web_hi_res_512 0x7f020041
 int id AboutAppRelativeLayout 0x7f0a003f
+int id AboutAppTextView 0x7f0a0042
 int id AboutContentsRelativeLayout 0x7f0a0041
 int id AddButtonID 0x7f0a007e
 int id AddCompanyButton 0x7f0a0065
@@ -389,6 +390,7 @@ int id ET_Name 0x7f0a0055
 int id ET_pid 0x7f0a0053
 int id EXTCButton 0x7f0a006a
 int id FetchDetailsET 0x7f0a007c
+int id FirstLineTextView3 0x7f0a0043
 int id FrameFullScreenId 0x7f0a006d
 int id GetInfoButton 0x7f0a0079
 int id GetStudentInfoButtonID 0x7f0a0089
@@ -495,8 +497,6 @@ int id split_action_bar 0x7f0a0007
 int id submit_area 0x7f0a003c
 int id tabMode 0x7f0a000b
 int id textView 0x7f0a0083
-int id textView2 0x7f0a0042
-int id textView3 0x7f0a0043
 int id textView4 0x7f0a0044
 int id textView5 0x7f0a0045
 int id textView6 0x7f0a0084

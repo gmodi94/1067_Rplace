@@ -5,4 +5,4 @@
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
 </menu>
-<!-- From: file:/C:/Users/GAURAV/AndroidStudioProjects/Rplace/app/src/main/res/menu/menu_remove_student.xml -->
+<!-- From: file:/C:/AndroidStudioProjects/Rplace/app/src/main/res/menu/menu_remove_student.xml -->
