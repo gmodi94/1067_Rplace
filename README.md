@@ -32,6 +32,7 @@ Step 8 : You Can View Graphs of Placement Data By Navigating  to View>View Stati
 10. License (GNU GPL version 3 with link to full license on gnu.org site.) :
 	
     R-Place is a android Application which provides a graphical Insight of Training and Placement Process.
+
     Copyright (C) 2015 Gaurav Modi (Email Id: gauravmodi94@gmail.com / i.gaurav1039@gmail.com)
 
     This program is free software: you can redistribute it and/or modify
