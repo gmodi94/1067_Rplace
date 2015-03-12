@@ -9,6 +9,7 @@
 6. About (Short Description / Summary):	
 
 R-Place Is a  App which has a aim of making a graphical view of entire Placement Process . Its Features Include charts for various parameters which help in success of entire training and Placement Procedure . 
+(Note : The App is Tested with Aakash2. App may not work correctly on other Android Phones)
 
 7. Install (Installation procedure): 
 
