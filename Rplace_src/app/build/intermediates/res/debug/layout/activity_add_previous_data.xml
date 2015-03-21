@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.gaurav.android.rplace.add_previous_data"
+    android:id="@+id/PreviousDataRelativeLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Year"
+        android:id="@+id/YearTextView"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="69dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/YearEditText"
+        android:ems="5"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_alignBottom="@+id/YearTextView"
+        android:layout_toRightOf="@+id/YearTextView"
+        android:layout_toEndOf="@+id/YearTextView"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/AveragePointer"
+        android:id="@+id/AveragePointerTextView"
+        android:layout_alignBottom="@+id/YearEditText"
+        android:layout_toRightOf="@+id/YearEditText"
+        android:layout_toEndOf="@+id/YearEditText"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AveragePointerEditText"
+        android:ems="5"
+        android:layout_alignBottom="@+id/AveragePointerTextView"
+        android:layout_toRightOf="@+id/AveragePointerTextView"
+        android:layout_toEndOf="@+id/AveragePointerTextView"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/NumberOfStudentsPlaced"
+        android:id="@+id/NumberPlacedTextView"
+        android:layout_below="@+id/YearTextView"
+        android:layout_alignLeft="@+id/YearTextView"
+        android:layout_alignStart="@+id/YearTextView"
+        android:layout_marginTop="29dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NStudentPlacedEditText"
+        android:layout_alignBottom="@+id/NumberPlacedTextView"
+        android:layout_toRightOf="@+id/NumberPlacedTextView"
+        android:layout_toEndOf="@+id/NumberPlacedTextView"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:inputType="number"
+        android:ems="5"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SubmitButton"
+        android:id="@+id/SubmitPreviousRecordButton"
+        android:layout_below="@+id/NumberPlacedTextView"
+        android:layout_toRightOf="@+id/YearEditText"
+        android:layout_toEndOf="@+id/YearEditText"
+        android:layout_marginTop="59dp" />
+</RelativeLayout>
+<!-- From: file:/C:/AndroidStudioProjects/Rplace/app/src/main/res/layout/activity_add_previous_data.xml -->

@@ -1,0 +1,7 @@
+C:\AndroidStudioProjects\Rplace\app\build\intermediates\classes\debug
+C:\AndroidStudioProjects\Rplace\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-ece8d447aaff4c1f502b4b2855c12a83dd72878d.jar
+C:\AndroidStudioProjects\Rplace\app\build\intermediates\pre-dexed\debug\classes-98eb688d528f23c4cbb6eca21d874c266b700532.jar
+C:\AndroidStudioProjects\Rplace\app\build\intermediates\pre-dexed\debug\achartengine-1.1.0-3f299a3dcb95578cd6c31d764649cd23d1f01454.jar
+C:\AndroidStudioProjects\Rplace\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-d3f1dcd9fa5eb157b07e06602e2ce559d5ffdd73.jar
+C:\AndroidStudioProjects\Rplace\app\build\intermediates\pre-dexed\debug\classes-de85a0b248ef7d3e77e3c98b98a902768fc562a6.jar
+C:\AndroidStudioProjects\Rplace\app\build\intermediates\pre-dexed\debug\classes-b8eb3d1bbab5fba5ae1d6e9935bfa5e80a253288.jar

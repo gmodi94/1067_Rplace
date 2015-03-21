@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rplace</string>
+    <string name="action_settings">Options</string>
+    <string name="title_activity_add_student">Add Student</string>
+    <string name="student_pid_TextViewString">PID</string>
+    <string name="student_pid_ETHint">PID Number</string>
+    <string name="student_name_TextViewString">Full Name</string>
+    <string name="student_fullName_ET_hint">Enter Full Name</string>
+    <string name="student_gender_TextViewString">Gender</string>
+    <string name="student_gender_male_RadioButtonString">Male</string>
+    <string name="student_gender_female_RadioButtonString">Female</string>
+    <string name="student_branch_TextViewString">Branch</string>
+    <string name="student_averagePointerET">Average Pointer</string>
+    <string name="student_averagePointerET_Hint">Enter Pointer</string>
+    <string name="Placement_StatusTextView">Placement Done?</string>
+    <string name="Placement_StatusCheckBox_Yes">Yes</string>
+    <string name="SubmitButton">Submit</string>
+    <string name="CancelButton">Cancel</string>
+
+    <string-array name="BranchName">
+        <item>Branch Name</item>
+        <item>I.T.</item>
+        <item>Computer</item>
+        <item>E.X.T.C</item>
+    </string-array>
+
+    <string name="Year"> Year </string>
+    <string name="AveragePointer"> Average Pointer </string>
+    <string name="NumberOfStudentsPlaced">Number of Students Placed</string>
+    <string name="CompanyName"> Company Name </string>
+    <string name="Remove">  Remove Student </string>
+    <string name="View">  View Result </string>
+    <string name="Add">  Add Student </string>
+    <string name="AddButton">Add Student</string>
+    <string name="RemoveButton"> Remove Student</string>
+    <string name="ActivityRemoveStudent_RemoveButton">Remove</string>
+    <string name="DisplayButton"> Display Statistics</string>
+    <string name="title_activity_remove_student">Remove Student</string>
+    <string name="title_activity_display">Display</string>
+    <string name="title_activity_questionaire">Questionaire</string>
+    <string name="Questionaire_Intro">Select suitable Ans</string>
+    <string name="q1">Are You a fun loving Pearson?</string>
+    <string name="q2">Do You read News Paper?</string>
+    <string name="q3">Rate the overall teaching in Your College</string>
+    <string name="q4">How Long You sit in front of Your PC?</string>
+    <string name="q_ans_yes">Yes</string>
+    <string name="q_ans_no">No</string>
+    <string name="createDatabase">   Create Database   </string>
+    <string name="title_activity_guiview">GUIView</string>
+    <string name="FetchDetailTextView">Student Details</string>
+    <string name="GetInfoButtonString">GET INFO</string>
+    <string name="DeleteDatabaseString">Delete All Data</string>
+    <string name="title_activity_add_main_gateway">add_main_gateway</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_remove_gateway">Remove Gateway</string>
+    <string name="AddCompany">Add Company</string>
+    <string name="AddPreviousData">Add Previous Data</string>
+    <string name="RemoveCompany">Remove Company</string>
+    <string name="ViewData">View Data</string>
+    <string name="ViewStatistics">View Statistics</string>
+    <string name="RemovePreviousData">Remove Previous Data</string>
+    <string name="title_activity_advanced_settings">Advanced Settings</string>
+    <string name="title_activity_home_fullscreen">HomeFullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_view_gateway">View Gateway</string>
+    <string name="title_activity_company_add">company_add</string>
+    <string name="title_activity_add_previous_data">add_previous_data</string>
+    <string name="title_activity_remove_company">RemoveCompany</string>
+    <string name="title_activity_remove_previous_data">removePreviousData</string>
+    <string name="title_activity_view_data">ViewData</string>
+    <string name="ViewPlacementData">Placement Data</string>
+    <string name="ViewStudentData">Student Data</string>
+    <string name="ViewResultData">Result Data</string>
+    <string name="LoadTestData">Load Test Data</string>
+    <string name="TotalStudents">Total Number of Students</string>
+    <string name="TotalStudentsIT">Total Number of IT Students</string>
+    <string name="TotalStudentsComputer">Total Number of Computer Students</string>
+    <string name="TotalStudentsEXTC">Total Number of EXTC Students</string>
+    <string name="OverallPlacement">Overall Placement </string>
+    <string name="ITPlacement"> I.T. Placement</string>
+    <string name="ComputerPlacement">Computer Placement</string>
+    <string name="EXTCPlacement">E.X.T.C. Placement</string>
+    <string name="title_activity_splash">R-Place</string>
+    <string name="WelcomeMessge">Welcome To Rplace!</string>
+    <string name="ApplicationCredits">App Created And Designed By: Gaurav Modi</string>
+    <string name="ApplicationCredits2">App Icon Designed and Created By: Clifford Pereira</string>
+    <string name="SpecialThanks">Special Thanks to :\n Nazneen Mam \nMr Pramod Shanbag (HOD IT S.F.I.T. ) </string>
+    <string name="SpecialThanks2">HOD IT:Praod Shanbag </string>
+    <string name="TestingDetails">App Tested on Akaash Tablet and Created For Akaash Tablet</string>
+    <string name="AppVersion">1.0</string>
+    <string name="SplashActivityText">WELCOME TO R-PLACE</string>
+    <string name="AboutApp">About APP</string>
+    <string name="title_activity_about_app">AboutApp</string>
+
+</resources>

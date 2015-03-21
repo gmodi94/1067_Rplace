@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Rplace"
+
+    android:id="@+id/AddStudentRelativeLayout"
+    android:background="@drawable/background"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ET_pid"
+        android:ems="5"
+        android:hint="@string/student_pid_ETHint"
+        android:inputType="number"
+        android:textColor="@android:color/black"
+
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/radioGroup_gender_ID"
+        android:layout_alignStart="@+id/radioGroup_gender_ID" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ET_Name"
+        android:ems="10"
+        android:hint="@string/student_fullName_ET_hint"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/ET_pid"
+        android:layout_alignLeft="@+id/ET_pid"
+        android:layout_alignStart="@+id/ET_pid" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroup_gender_ID"
+
+        android:layout_below="@+id/PlacementCheckBoxID"
+        android:layout_alignLeft="@+id/AveragePointET"
+        android:layout_alignStart="@+id/AveragePointET">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/student_gender_male_RadioButtonString"
+            android:id="@+id/male_radioButtonID"
+            android:checked="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/student_gender_female_RadioButtonString"
+            android:id="@+id/female_radioButtonID"
+            android:checked="false" />
+    </RadioGroup>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BranchSelectorSpinnerID"
+        android:spinnerMode="dropdown"
+        android:entries="@array/BranchName"
+        android:layout_toRightOf="@+id/ET_Name"
+        android:layout_marginLeft="21dp"
+        android:layout_alignTop="@+id/ET_pid" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AveragePointET"
+        android:hint="@string/student_averagePointerET_Hint"
+
+        android:inputType="numberDecimal"
+        android:ems="7"
+
+        android:layout_below="@+id/radioGroup_gender_ID"
+
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="45dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/Placement_StatusTextView"
+        android:id="@+id/PlacementTV_ID"
+        android:textColor="@android:color/black"
+
+        android:layout_alignBottom="@+id/ET_Name"
+        android:layout_alignLeft="@+id/BranchSelectorSpinnerID"
+        android:layout_alignStart="@+id/BranchSelectorSpinnerID" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Placement_StatusCheckBox_Yes"
+        android:id="@+id/PlacementCheckBoxID"
+        android:checked="false"
+        android:textColor="@android:color/black"
+        android:layout_alignTop="@+id/PlacementTV_ID"
+        android:layout_toRightOf="@+id/PlacementTV_ID"
+        android:layout_toEndOf="@+id/PlacementTV_ID" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SubmitButton"
+        android:id="@+id/SubmitButtonID"
+        android:onClick="AddStudent"
+        android:background="@drawable/add_button"
+
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/AveragePointET"
+        android:layout_toRightOf="@+id/ET_pid"
+        android:layout_toEndOf="@+id/ET_pid" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CancelButton"
+        android:id="@+id/CancelButtonID"
+        android:onClick="goto_Rplace"
+        android:background="@drawable/add_button"
+
+
+        android:layout_alignTop="@+id/SubmitButtonID"
+        android:layout_alignRight="@+id/PlacementCheckBoxID"
+        android:layout_alignEnd="@+id/PlacementCheckBoxID" />
+    <![CDATA[
+
+    Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LoadTestData"
+        android:id="@+id/LoadTestDataButton"
+        android:onClick="LoadTestData"
+        android:layout_alignTop="@+id/CancelButtonID"
+        android:layout_toLeftOf="@+id/PlacementCheckBoxID"
+        android:layout_toStartOf="@+id/PlacementCheckBoxID"
+        android:background="@drawable/add_button"/>
+]]>
+</RelativeLayout>
