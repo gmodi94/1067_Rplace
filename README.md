@@ -1,4 +1,4 @@
-1. Name (Project heading) : 		Rplace
+1. Name (Project heading) : 		1067_Rplace
 
 2. Remote Centre ID (RC_ID) :	 	1067
 3. College / Institute Name : 		St Francis Institute of Technology
